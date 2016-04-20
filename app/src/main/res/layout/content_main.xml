@@ -88,7 +88,9 @@
         android:id="@+id/setbtn"
         android:layout_above="@+id/achievementbtn"
         android:layout_alignStart="@+id/startbtn"
-        android:layout_alignEnd="@+id/startbtn" />
+        android:layout_alignLeft="@+id/startbtn"
+        android:layout_alignEnd="@+id/startbtn"
+        android:layout_alignRight="@+id/startbtn"/>
 
     <Button
         android:layout_width="wrap_content"
@@ -97,7 +99,9 @@
         android:id="@+id/achievementbtn"
         android:layout_above="@+id/aboutbtn"
         android:layout_alignStart="@+id/setbtn"
-        android:layout_alignEnd="@+id/setbtn" />
+        android:layout_alignEnd="@+id/setbtn"
+        android:layout_alignLeft="@+id/setbtn"
+        android:layout_alignRight="@+id/setbtn"/>
 
     <Button
         android:layout_width="wrap_content"
@@ -106,6 +110,7 @@
         android:id="@+id/aboutbtn"
         android:layout_alignBottom="@+id/imageView3"
         android:layout_toEndOf="@+id/achievementbtn"
+        android:layout_toRightOf="@+id/achievementbtn"
         android:layout_gravity="center_horizontal" />
 
     <ImageView
@@ -114,5 +119,6 @@
         android:id="@+id/imageView3"
         android:src="@drawable/hitmousebackground"
         android:layout_alignParentBottom="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"/>
 </RelativeLayout>
