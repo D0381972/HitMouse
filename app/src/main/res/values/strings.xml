@@ -20,4 +20,7 @@
     <string name="action_quit">結束本程式</string>
 
     <string name="action_version">版本</string>
+
+    <string name="timebtn">時間模式</string>
+    <string name="normalbtn">一般模式</string>
 </resources>
