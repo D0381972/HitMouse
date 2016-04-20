@@ -44,11 +44,4 @@
         android:text="@string/btn_4"
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="48dp"/>
-    <Button
-        android:layout_height="wrap_content"
-        android:layout_width="wrap_content"
-        android:id="@+id/button5"
-        android:text="456"
-        android:layout_alignParentBottom="true"
-        android:layout_marginBottom="48dp"/>
 </RelativeLayout>
