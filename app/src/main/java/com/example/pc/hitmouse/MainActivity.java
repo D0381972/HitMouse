@@ -1,5 +1,7 @@
 package com.example.pc.hitmouse;
 
+import android.app.AlertDialog;
+import android.content.DialogInterface;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -37,16 +39,37 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
-        int id = item.getItemId();
+        switch (item.getItemId()) {
+            case R.id.action_about:
+                AlertDialog.Builder ad1 = new AlertDialog.Builder(this);
+                ad1.setTitle("作者：");
+                ad1.setMessage("廖裕弘、李定睿、蘇冠睿、許中瀚");
 
-        //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            return true;
+                DialogInterface.OnClickListener listener1 = new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface di, int i) {
+                    }
+                };
+                ad1.setPositiveButton("確定",listener1);
+                ad1.show();
+                break;
+
+            case R.id.action_version:
+                AlertDialog.Builder ad2 = new AlertDialog.Builder(this);
+                ad2.setTitle("版本");
+                ad2.setMessage("Ver 0.0.1");
+
+                DialogInterface.OnClickListener listener2 = new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface di, int i) {
+                    }
+                };
+                ad2.setPositiveButton("確定",listener2);
+                ad2.show();
+                break;
+
+            case R.id.action_quit:
+                finish();
+                break;
         }
-
         return super.onOptionsItemSelected(item);
     }
 }

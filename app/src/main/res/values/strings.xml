@@ -1,4 +1,23 @@
 <resources>
-    <string name="app_name">HitMouse.</string>
+    <string name="app_name">HitMouse</string>
+
     <string name="action_settings">Settings</string>
+
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <string name="verson">Ver1.0</string>
+
+    <string name="btn_1">開始</string>
+
+    <string name="btn_2">設定</string>
+
+    <string name="btn_3">成就</string>
+
+    <string name="btn_4">關於</string>
+
+    <string name="action_about">關於本程式</string>
+
+    <string name="action_quit">結束本程式</string>
+
+    <string name="action_version">版本</string>
 </resources>
