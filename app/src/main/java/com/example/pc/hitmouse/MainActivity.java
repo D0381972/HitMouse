@@ -13,7 +13,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.main_content);
+        setContentView(R.layout.content_main);
         Button start = (Button)findViewById(R.id.startbtn);
         start.setOnClickListener(gamemode);
         Button about = (Button)findViewById(R.id.aboutbtn);

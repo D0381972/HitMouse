@@ -10,7 +10,7 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.example.user.hitmouse.MainActivity">
-    tools:showIn="@layout/main_activity"
+    tools:showIn="@layout/activity_main"
 
 
     <Button
